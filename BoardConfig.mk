@@ -27,9 +27,6 @@ TARGET_OTA_ASSERT_DEVICE := xt1052,ghost,xt1053,ghost_retail,xt1055,ghost_usc,xt
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
-# Recovery
-TARGET_NO_RECOVERY := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_ghost
 TARGET_NR_SVC_SUPP_GIDS := 28
